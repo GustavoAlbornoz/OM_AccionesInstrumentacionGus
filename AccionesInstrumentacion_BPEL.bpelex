@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.wbit.bpel.ui.uiextensionmodel="http:///com/ibm/wbit/bpel/ui/uiextensionmodel.ecore" xmlns:extensionmodel="http:///extensionmodel.ecore" xmlns:sb="http://com.ibm.wbit.stickyboard.model/model/StickyBoard.xsd">
+  <extensionmodel:ExtensionMap namespace="http://com.ibm.wbit.bpel.ui/">
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#/"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ProcessExtension" modificationStamp="1561493325692" autoLayout="true" maxWpcId="101" minWpcId="0"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.2"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.3"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.4"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.5"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.6"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.7"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.8"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.9"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.10"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.1/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:CaseExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:CaseExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.0/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.1/@faultHandler"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:FaultHandlerExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity/@activities.0/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity/@activities.2"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@condition"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ExpressionExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@otherwise/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@otherwise/@activity/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:CaseExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:CaseExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@faultHandler"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:FaultHandlerExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@faultHandler/@catch.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:CatchExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@faultHandler/@catch.0/@faultVariable"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@faultHandler/@catch.0/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@faultHandler/@catch.0/@activity/@activities.0/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@faultHandler/@catch.0/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@faultHandler/@catch.0/@activity/@activities.2"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:CaseExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@faultHandler"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:FaultHandlerExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity/@activities.0/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity/@activities.2"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@condition"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ExpressionExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:CaseExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1/@activity/@faultHandler"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:FaultHandlerExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1/@activity/@faultHandler/@catchAll/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1/@activity/@faultHandler/@catchAll/@activity/@activities.0/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1/@activity/@faultHandler/@catchAll/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1/@activity/@faultHandler/@catchAll/@activity/@activities.2"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1/@condition"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ExpressionExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@otherwise/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@otherwise/@activity/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.2"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.2/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@condition"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ExpressionExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@otherwise/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@otherwise/@activity/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@condition"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ExpressionExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@otherwise/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@otherwise/@activity/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@condition"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ExpressionExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@otherwise/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@otherwise/@activity/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.3"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.3/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.4"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@faultHandler/@catch.0/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.2"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.3"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.4"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.5"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.6"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.7"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.8"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.9"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@variables/@children.10"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.1/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.0/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity/@activities.0/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity/@activities.2"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.1/@faultHandler"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:FaultHandlerExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@condition"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ExpressionExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:CaseExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@otherwise/@activity/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@otherwise/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@faultHandler/@catch.0/@faultVariable"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:VariableExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@faultHandler/@catch.0/@activity/@activities.0/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@faultHandler/@catch.0/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@faultHandler/@catch.0/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@faultHandler/@catch.0/@activity/@activities.2"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@faultHandler/@catch.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:CatchExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@faultHandler"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:FaultHandlerExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity/@activities.0/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity/@activities.2"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@faultHandler"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:FaultHandlerExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@condition"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ExpressionExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:CaseExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1/@activity/@faultHandler/@catchAll/@activity/@activities.0/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1/@activity/@faultHandler/@catchAll/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1/@activity/@faultHandler/@catchAll/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1/@activity/@faultHandler/@catchAll/@activity/@activities.2"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1/@activity/@faultHandler"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:FaultHandlerExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1/@condition"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ExpressionExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:CaseExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@otherwise/@activity/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@otherwise/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.2/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.2"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@condition"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ExpressionExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:CaseExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@otherwise/@activity/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@otherwise/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@condition"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ExpressionExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:CaseExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@otherwise/@activity/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@otherwise/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@condition"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ExpressionExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:CaseExtension"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@otherwise/@activity/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@otherwise/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.3/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.3"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.4"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#/"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ProcessExtension" modificationStamp="1558987982090" maxWpcId="98" minWpcId="0"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@faultHandler/@catch.0/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.0/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@faultHandler/@catchAll/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.1/@activity/@faultHandler/@catchAll/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" isBOMap="Data Map"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.0/@eExtensibilityElements.0"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" isBOMap="Data Map"/>
+    </extensions>
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#//@activity/@activities.2/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity/@activities.1/@cases.0/@activity"/>
+      <extensionObject xsi:type="com.ibm.wbit.bpel.ui.uiextensionmodel:ActivityExtension" x="-2147483648" implicit="true"/>
+    </extensions>
+  </extensionmodel:ExtensionMap>
+  <extensionmodel:ExtensionMap namespace="http://com.ibm.wbit.stickyboard.model/model/StickyBoard.xsd">
+    <extensions>
+      <extendedObject href="AccionesInstrumentacion_BPEL.bpel#/"/>
+      <extensionObject xsi:type="sb:StickyDocument">
+        <stickyBoard id="default"/>
+      </extensionObject>
+    </extensions>
+  </extensionmodel:ExtensionMap>
+</xmi:XMI>

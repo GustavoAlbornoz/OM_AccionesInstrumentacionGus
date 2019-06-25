@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" name="AccionesInstrumentacion_BPEL" targetNamespace="http://AccionesInstrumentacion/AccionesInstrumentacion_BPELArtifacts" xmlns:ns="http://AccionesInstrumentacion/ConsultarInterface" xmlns:ns0="http://RequiereProceso_Lib/RequiereProceso" xmlns:ns1="http://ws.bancogalicia.com.ar/webservices/consultaevaluacionindividuosoferta/2_0_0" xmlns:plnk="http://schemas.xmlsoap.org/ws/2004/03/partner-link/" xmlns:tns="http://AccionesInstrumentacion/AccionesInstrumentacion_BPELArtifacts" xmlns:wsdl0="http://AccionesInstrumentacion/consultarAccionInstrumentacion" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <plnk:partnerLinkType name="AccionesInstrumentacionInterfacePLT">
+    <plnk:role name="Interface">
+      <plnk:portType name="wsdl0:AccionesInstrumentacionInterface"/>
+    </plnk:role>
+  </plnk:partnerLinkType>
+    <plnk:partnerLinkType name="PartnerPLT">
+    <plnk:role name="Reference">
+      <plnk:portType name="ns:ConsultarInterface"/>
+    </plnk:role>
+  </plnk:partnerLinkType>
+    <plnk:partnerLinkType name="PartnerPLT1">
+    <plnk:role name="Reference">
+      <plnk:portType name="ns0:RequiereProceso"/>
+    </plnk:role>
+  </plnk:partnerLinkType>
+    <plnk:partnerLinkType name="PartnerPLT2">
+    <plnk:role name="Reference">
+      <plnk:portType name="ns1:ConsultaEvaluacionIndividuosOferta"/>
+    </plnk:role>
+  </plnk:partnerLinkType>
+    <wsdl:import location="AccionesInstrumentacionInterface.wsdl" namespace="http://AccionesInstrumentacion/consultarAccionInstrumentacion"/>
+    <wsdl:import location="ConsultarInterface.wsdl" namespace="http://AccionesInstrumentacion/ConsultarInterface"/>
+    <wsdl:import location="RequiereProceso.wsdl" namespace="http://RequiereProceso_Lib/RequiereProceso"/>
+    <wsdl:import location="desaosb/consultaevaluacionindividuosoferta/v2/anonimo_wsdl.wsdl" namespace="http://ws.bancogalicia.com.ar/webservices/consultaevaluacionindividuosoferta/2_0_0"/>
+</wsdl:definitions>

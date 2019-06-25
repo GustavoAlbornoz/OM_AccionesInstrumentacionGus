@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><mappingRoot xmlns="http://www.ibm.com/2008/ccl/Mapping" domainID="com.ibm.msl.mapping.xml" targetNamespace="http://AccionesInstrumentacion/MapEvaluadorRP" version="8.0.4.0" xmlns:map="http://AccionesInstrumentacion/MapEvaluadorRP">
+    <input path="/desaosb/consultaevaluacionindividuosoferta/v2/anonimo_schema/procesosventas/consultaevaluacionindividuosoferta/v2/obtenerevaluacionfinalizadaresponse_1_0_0.xsd"/>
+    <output path="/in_requiereProceso.xsd"/>
+    <namespaces>
+        <namespace kind="supplement" prefix="in2" uri="http://ws.bancogalicia.com.ar/webservices/globales/bgbatipossoporte/3_0_0"/>
+        <namespace kind="supplement" prefix="in4" uri="http://ws.bancogalicia.com.ar/webservices/globales/bgbaresultadooperacion/2_0_0"/>
+        <namespace kind="supplement" prefix="in3" uri="http://ws.bancogalicia.com.ar/webservices/consultaevaluacionindividuosoferta/obtenerevaluacionfinalizadaresponse/1_0_0"/>
+        <namespace kind="supplement" prefix="in" uri="http://ws.bancogalicia.com.ar/webservices/globales/bgbatiposbase/3_0_0"/>
+        <namespace kind="supplement" prefix="out" uri="http://OM_RequiereProceso_Lib"/>
+    </namespaces>
+    <mappingDeclaration name="MapEvaluadorRP">
+        <input namespace="http://ws.bancogalicia.com.ar/webservices/consultaevaluacionindividuosoferta/obtenerevaluacionfinalizadaresponse/1_0_0" path="ObtenerEvaluacionFinalizadaResponse"/>
+        <output namespace="http://OM_RequiereProceso_Lib" path="type('in_requiereProceso')"/>
+        <move>
+            <input path="Datos/ResultadoEvaluacion/Politicas/CategoriaDecision/Codigo/text()"/>
+            <output path="semaforoGenerico"/>
+        </move>
+    </mappingDeclaration>
+</mappingRoot>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:export xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration_6.1.0="http://www.ibm.com/xmlns/prod/websphere/j2ca/configuration/6.1.0" xmlns:http="http://www.ibm.com/xmlns/prod/websphere/scdl/http/6.1.0" xmlns:ns1="http://AccionesInstrumentacion/consultarAccionInstrumentacion" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="AccionesInstrumentacion_BPELExport" name="AccionesInstrumentacion_BPELExport" target="AccionesInstrumentacion_Handler">
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" preferredInteractionStyle="sync" portType="ns1:AccionesInstrumentacionInterface"/>
+  </interfaces>
+  <esbBinding xsi:type="http:HTTPExportBinding" defaultDataBindingReferenceName="configuration_6.1.0:UTF8XMLDataHandler">
+    <exportInteraction contextPath="/AccionesInstrumentacion_BPELExport">
+      <httpMethod pingable="false">
+        <httpMethod>PUT</httpMethod>
+      </httpMethod>
+    </exportInteraction>
+    <functionSelector>com.ibm.wbiserver.functionselector.ConstantFunctionSelector</functionSelector>
+    <methodBinding method="consultarAccionInstrumentacion">
+      <exportInteraction contextPath="/consultarAccionInstrumentacion">
+        <httpMethod pingable="false">
+          <httpMethod>PUT</httpMethod>
+        </httpMethod>
+      </exportInteraction>
+      <nativeMethod>consultarAccionInstrumentacion</nativeMethod>
+    </methodBinding>
+  </esbBinding>
+</scdl:export>

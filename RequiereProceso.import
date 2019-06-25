@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:import xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns1="http://RequiereProceso_Lib/RequiereProceso" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:webservice="http://www.ibm.com/xmlns/prod/websphere/scdl/webservice/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="RequiereProceso" name="RequiereProceso">
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" preferredInteractionStyle="sync" portType="ns1:RequiereProceso">
+      <scdl:interfaceQualifier xsi:type="scdl:JoinTransaction" value="false"/>
+    </interface>
+  </interfaces>
+  <esbBinding xsi:type="webservice:WebServiceImportBinding" endpoint="http://desabpmpc03:80/OM_RequiereProcesoWeb/sca/RequiereProcesoExport1" port="ns1:RequiereProcesoExport1_RequiereProcesoHttpPort" service="ns1:RequiereProcesoExport1_RequiereProcesoHttpService"/>
+</scdl:import>

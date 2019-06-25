@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Class-Path: copiedjars/BPMTools/lib/log4j-1.2.17.jar 
+ copiedjars/BPMTools/lib/commons-codec-1.10.jar 
+ copiedjars/BPMTools/lib/commons-vfs2-2.0.jar 
+ copiedjars/BPMTools/lib/commons-logging-1.2.jar 
+ ConsultaInformacionEvaluacion_Lib.jar 
+ OM_RequiereProceso_Lib.jar 
+ BPMTools.jar 
+ copiedjars/BPMTools/lib/gson-2.2.2.jar
+Created-By: 1.5.0 (IBM Corporation)
+

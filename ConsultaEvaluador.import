@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:import xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns1="http://ws.bancogalicia.com.ar/webservices/consultaevaluacionindividuosoferta/2_0_0" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:webservice="http://www.ibm.com/xmlns/prod/websphere/scdl/webservice/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="ConsultaEvaluador" name="ConsultaEvaluador">
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" preferredInteractionStyle="sync" portType="ns1:ConsultaEvaluacionIndividuosOferta">
+      <scdl:interfaceQualifier xsi:type="scdl:JoinTransaction" value="false"/>
+    </interface>
+  </interfaces>
+  <esbBinding xsi:type="webservice:WebServiceImportBinding" endpoint="http://desaosb:8003/consultaevaluacionindividuosoferta/v2/anonimo" port="ns1:ConsultaEvaluacionIndividuosOferta" service="ns1:ConsultaEvaluacionIndividuosOferta"/>
+</scdl:import>

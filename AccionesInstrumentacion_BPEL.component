@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scdl:component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns1="http://AccionesInstrumentacion/consultarAccionInstrumentacion" xmlns:ns2="http://RequiereProceso_Lib/RequiereProceso" xmlns:ns3="http://ws.bancogalicia.com.ar/webservices/consultaevaluacionindividuosoferta/2_0_0" xmlns:ns4="http://AccionesInstrumentacion/ConsultarInterface" xmlns:process="http://www.ibm.com/xmlns/prod/websphere/scdl/business-process/6.0.0" xmlns:scdl="http://www.ibm.com/xmlns/prod/websphere/scdl/6.0.0" xmlns:wsdl="http://www.ibm.com/xmlns/prod/websphere/scdl/wsdl/6.0.0" displayName="AccionesInstrumentacion_BPEL" name="AccionesInstrumentacion_BPEL">
+  <interfaces>
+    <interface xsi:type="wsdl:WSDLPortType" preferredInteractionStyle="async" portType="ns1:AccionesInstrumentacionInterface">
+      <scdl:interfaceQualifier xsi:type="scdl:JoinTransaction" value="true"/>
+    </interface>
+  </interfaces>
+  <references>
+    <reference name="RequiereProcesoPartner">
+      <interface xsi:type="wsdl:WSDLPortType" portType="ns2:RequiereProceso"/>
+      <scdl:referenceQualifier xsi:type="scdl:SuspendTransaction" value="false"/>
+      <scdl:referenceQualifier xsi:type="scdl:Reliability"/>
+      <scdl:referenceQualifier xsi:type="scdl:DeliverAsyncAt" value="commit"/>
+      <wire target="RequiereProceso"/>
+    </reference>
+    <reference name="ConsultaEvaluacionIndividuosOfertaPartner">
+      <interface xsi:type="wsdl:WSDLPortType" portType="ns3:ConsultaEvaluacionIndividuosOferta"/>
+      <scdl:referenceQualifier xsi:type="scdl:SuspendTransaction" value="false"/>
+      <scdl:referenceQualifier xsi:type="scdl:Reliability"/>
+      <scdl:referenceQualifier xsi:type="scdl:DeliverAsyncAt" value="commit"/>
+      <wire target="ConsultaEvaluador"/>
+    </reference>
+    <reference name="ConsultarInterfacePartner">
+      <interface xsi:type="wsdl:WSDLPortType" portType="ns4:ConsultarInterface"/>
+      <scdl:referenceQualifier xsi:type="scdl:SuspendTransaction" value="false"/>
+      <scdl:referenceQualifier xsi:type="scdl:Reliability"/>
+      <scdl:referenceQualifier xsi:type="scdl:DeliverAsyncAt" value="commit"/>
+      <wire target="ConsultarObtenerDatosSolicitud"/>
+    </reference>
+  </references>
+  <implementation xsi:type="process:ProcessImplementation">
+    <scdl:implementationQualifier xsi:type="scdl:Transaction" value="global"/>
+    <process bpel="/AccionesInstrumentacion_BPEL.bpel"/>
+  </implementation>
+</scdl:component>
